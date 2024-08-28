@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-continer {
+    background-image: url('https://assets.ccbp.in/frontend/static-website/yoga-bg.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.home-head {
+    text-align: center;
+    font-family: roboto;
+    color: #132d84;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.home-img {
+    height: 90vh;
+    width: 60vw;
+    margin: 80px;
+}
+
+.home-par {
+    font-family: Roboto;
+    color: #323f4b;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.home-btn {
+    text-align: center;
+}
+
+.home-sec2 {
+    background-color: #ffedcb;
+    text-align: center;
+    height: 50vh;
+    padding: 10px;
+}
+
+.page2-sect2-padding {
+    padding: 15px;
+}
+
+.page2-sect1 {
+    background-color: #ffedcb;
+    background-size: cover;
+    height: 50vh;
+    padding: 20px;
+}
+
+.page2-img1 {
+    height: 60vh;
+    padding: 30px;
+
+}
+
+.page2-h1 {
+    font-family: Roboto;
+    font-size: 30px;
+    color: #132d84;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.page2-sect2 {
+    background-color: #ffedcb;
+    background-size: cover;
+    height: 200vh;
+    width: 100vw;
+    text-align: center;
+    padding: 30px;
+
+
+}
+
+.page2-card1 {
+    background-color: #ffe2ab;
+    width: 80vw;
+    height: 30vh;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.page2-card-img1 {
+    height: 20vh;
+    padding: 10px;
+
+}
+
+.page2-cardh1 {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #323f4b;
+    font-weight: bold;
+    text-align: left;
+}
+
+.page2-cardpar {
+    font-family: Roboto;
+    font-size: 15px;
+    color: #323f4b;
+    font-weight: bold;
+    text-align: left;
+}
+</style>
+</head>
+
+<body>
+    <div id="sectionhomepage">
+        <div class="bg-continer">
+            <h1 class="home-head">Discover the yogi life on<br /> the Yoga Experience<br /> Platform </h1>
+            <div class="d-flex flex-column ">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-girl-with-headphones-img.png" class="home-img">
+            </div>
+        </div>
+
+        <div class="home-sec2">
+            <p class="home-par">Yoga poses strengthen and open light<br />
+                areas of the body</p>
+            <button class="btn btn-primary " onclick="display('sectionyogapage')">Get Started</button>
+        </div>
+    </div>
+
+    <div id="sectionyogapage">
+        <div class="page2-sect1">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://assets.ccbp.in/frontend/static-website/yoga-girl-with-headphones-img.png" class="page2-img1"> <br />
+            </div>
+        </div>
+        <div>
+            <div class="page2-sect2 d-flex flex-column justify-center-end">
+                <h1 class="page2-h1">Types of Yoga</h1>
+                <div>
+                    <div class="page2-card1 d-flex flex-row">
+                        <img src="https://assets.ccbp.in/frontend/static-website/yoga-card1-img.png" class="page2-card-img1">
+                        <div>
+                            <h1 class="page2-cardh1"> Acro yoga<br /></h1>
+                            <p class="page2-cardpar">it strengthes and relaxes your body,improves statemina and memory
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="page2-card1 d-flex flex-row mt-3">
+                        <img src="https://assets.ccbp.in/frontend/static-website/yoga-card2-img.png" class="page2-card-img1">
+                        <div>
+                            <h1 class="page2-cardh1"> Vinyas Yoga<br /></h1>
+                            <p class="page2-cardpar">It serves as a training to increase strength and helps
+                                to build lean muscle mass throufh the body.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="page2-card1 d-flex flex-row mt-3">
+                        <img src="https://assets.ccbp.in/frontend/static-website/yoga-card3-img.png" class="page2-card-img1">
+                        <div>
+                            <h1 class="page2-cardh1"> Hatha Yoga<br /></h1>
+                            <p class="page2-cardpar">it introduces beginners to the main relaxation techniques and asanas
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="page2-card1 d-flex flex-row mt-3">
+                        <img src="https://assets.ccbp.in/frontend/static-website/yoga-card4-img.png" class="page2-card-img1">
+                        <div>
+                            <h1 class="page2-cardh1"> Kunadalini Yoga<br /></h1>
+                            <p class="page2-cardpar">It helps relax and restore the mind and body,improving strength,flexibiity and endurance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
